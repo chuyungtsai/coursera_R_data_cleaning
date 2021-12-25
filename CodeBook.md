@@ -5,10 +5,11 @@ Variables and transformation
 - mean_names and std_names: find the meana and standard deviation by regular expression and grep()function
 - train_extract and test_extract: select the column with the names found above
 - subject_train, subject_test and activity: input 'subject.txt' file by read.table() function, then append the above dataset
-- merge train and test data by merge() function
-- activity_labels: input 'activity_labels.txt'
-
-
+- merge train and test data by merge() function and output 'merge_data'
+- activity_labels: input 'activity_labels.txt' and use for loop to convert the activity 
+- create 'variables': the names of variable, then use the gsub() function to edit the variables
+- output the cleaned data by write.csv()
+- finally, use dplyr package. Then use group_by(subject, activity) and summarize.
 
 For the final features included in the analysis:  
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 'timeof') were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
