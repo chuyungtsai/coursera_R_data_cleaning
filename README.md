@@ -1,5 +1,6 @@
 # Coursera_R_data_cleaning_project
 
+Data source:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip    
 R script: run_analysis.R  
 Code book: codebook.txt  
 Cleaned data sets: 
