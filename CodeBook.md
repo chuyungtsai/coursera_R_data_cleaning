@@ -1,4 +1,12 @@
-#Code Book.  
+# Code Book   
+Variables and transformation
+- X_train, X_test and features: input file ('X_train.txt', 'X_test.txt', 'features.txt' by read.delim() function
+- then assign the column names from the features
+- mean_names and std_names: find the meana and standard deviation by regular expression and grep()function
+- train_extract and test_extract: select the column with the names found above
+- subject_train, subject_test and activity: input 'subject.txt' file by read.table() function, then append the above dataset
+- merge train and test data by merge() function
+- activity_labels: input 'activity_labels.txt'
 
 
 
