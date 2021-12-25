@@ -8,7 +8,7 @@ Variables and transformation
 - merge train and test data by merge() function and output 'merge_data'
 - activity_labels: input 'activity_labels.txt' and use for loop to convert the activity 
 - create 'variables': the names of variable, then use the gsub() function to edit the variables
-- output the cleaned data by write.csv()
+- output the cleaned data (cleaned_data_1.csv) by write.csv()
 - finally, use dplyr package. Then use group_by(subject, activity) and summarize.
 
 For the final features included in the analysis:  
